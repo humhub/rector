@@ -1,0 +1,17 @@
+{
+  "name": "humhub/rector",
+  "description": "Central Rector configuration and custom rules for all modules",
+  "type": "library",
+  "require": {
+    "php": "^8.2",
+    "rector/rector": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "HumHub\\RectorRules\\": "rules/"
+    }
+  },
+  "extra": {
+    "rector": "rector.php"
+  }
+}
